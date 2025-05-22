@@ -6,7 +6,7 @@ This README provides an overview of the game, explains its core functions, and i
 
 - Table of Contents
 - Game Overview
-  - Core Functions and Features
+- Core Functions and Features
 - Initialization and Setup
 - Resource Loading
 - UI Management
@@ -117,7 +117,7 @@ Feel free to expand on your inspiration, whether it's personal, technical, or cr
 
 2. **Prepare Assets**: Place sound files (`shoot.wav`, `collision.wav`, `win.wav`, `background.mp3`), images (`go_logo.png`, `docker_logo.png`, etc.), and video frames in the `video_frames` directory.
 
-3. **Run the Game**: Execute the script with Python:
+3. **Run the Game**: Execute the script with Python: python Game.py
 
    ```bash
    python container_tanker.py

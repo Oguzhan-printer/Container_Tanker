@@ -4,7 +4,7 @@ Welcome to **Container Tanker**! 🎮 This is a thrilling 2D tank shooter game b
 
 This README provides an overview of the game, explains its core functions, and includes a section for the story behind its creation. Let's dive in! 🌟
 
-- Table of Contents
+-Table of Contents-
 - Game Overview
 - Core Functions and Features
 - Initialization and Setup

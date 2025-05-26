@@ -64,7 +64,7 @@ The goal is to destroy all targets before running out of bullets, while avoiding
   - `shoot_tank(tank)`: Creates a bullet with velocity based on the turret angle, applies recoil, and plays a shoot sound. 💥
 - **Bullet**:
   - `update_bullet(bullet)`: Moves bullets and checks if they're within bounds or past their lifetime (`BULLET_LIFETIME`). 🕒
-  - `draw_bullet(bullet, surface)`: Draws rotated bullet images. 🔫
+  - `draw_bullet(bullet, surface)`: Draws rotated bullet images. At the same time, during the shell explosion, a recoil animation enters and the tank recoils a little. 🔫
 - **Target**:
   - `create_target(x, y, image)`: Spawns a target with a random velocity and level-specific image. 🎯
   - `update_target(target)`: Moves targets, bounces them off screen edges, and clamps their position. 🏃‍♂️
